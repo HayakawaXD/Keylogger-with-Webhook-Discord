@@ -104,7 +104,7 @@ Key components:
 
 ```powershell
 
-git clone https://github.com/seu-usuario/keylogger-simples-discord.git
+git clone https://github.com/your-user/simple-keylogger-discord.git
 cd keylogger-simples-discord
 ```
 
