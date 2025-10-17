@@ -16,12 +16,12 @@ def send_data():
         try:
             response = requests.post(webhook_url, json=data)
             response.raise_for_status()
-            print("Dados enviados com sucesso!")  
+            print("Data sent successfully!")  
             
         except requests.exceptions.RequestException as e:
-            print(f"Erro ao enviar dados: {e}")
+            print(f"Error sending data: {e}")
         except Exception as e:
-            print(f"Erro inesperado: {e}")
+            print(f"Unexpected error: {e}")
     
 
     timer = threading.Timer(time_interval, send_data)
